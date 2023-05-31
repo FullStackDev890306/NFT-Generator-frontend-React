@@ -1,0 +1,101 @@
+.pay-page {
+    background-color: #121212 !important;
+}
+
+.pay-left-side{
+    float: left;
+    width: 28%;
+    position: relative;
+    padding: 0.75rem;
+    max-width: 360px;
+    min-width: 360px;
+
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.pay-right-side {
+    float: left;
+    width: 72%;
+    position: relative;
+    background-color: #20232a;
+    
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+}
+
+.payment-back-btn,.form-submit-btn{
+    width: 100%;
+}
+
+.layer-heading{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.layer-heading-tip{
+    color: #4a4a4a;
+}
+
+.check_layers ul{
+    list-style-type:none;
+    padding:0;
+    font-size: 16px;
+}
+
+.check_layers_list>span{
+    color:#8b9dff;
+    font-weight:1000;
+}
+
+.check_layers_list ul{
+    margin-left:15px;
+    padding:0;list-style-type:none
+}
+
+.check_layers_list li{
+    display:flex;
+    padding:2px 2px 2px 8px;
+    list-style-type:none;
+    background:#20232a;
+    border-radius:4px;
+    margin:0 0 4px;
+    color:#ffffff73
+}
+
+.check_layers_list li span{
+    flex-direction:column
+}
+
+.check_layers_list li span:last-child{
+    margin:1px 1px 1px auto;
+    background:#ebf2fc;
+    color:#20232a;
+    border-radius:4px;
+    padding:0 5px;font-size:.8em;
+    width:60px;
+    text-align:center
+}
+
+.purchase-header{
+    text-align: center;
+    font-weight: 600;
+}
+
+.purchase-form{
+    padding: 10px 0;
+}
+
+.form-part {
+    margin: 30px;
+}
+
+.myalert{
+    background-color: #eff5fb !important;
+    color: #296fa8 !important;
+}
